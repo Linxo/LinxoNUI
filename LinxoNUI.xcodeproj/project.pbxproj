@@ -7,10 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7FB256585E6FE994A397E3E1 /* Pods_LinxoNUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73401B6DCFFBDEA2EA66F954 /* Pods_LinxoNUI.framework */; };
 		9018783E1F9E713D0062A0CE /* LinxoNUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 9018783C1F9E713D0062A0CE /* LinxoNUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C41724778027DB8357FFB8C /* Pods-LinxoNUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinxoNUI.release.xcconfig"; path = "Pods/Target Support Files/Pods-LinxoNUI/Pods-LinxoNUI.release.xcconfig"; sourceTree = "<group>"; };
+		674971801AC43D3E6A38A549 /* Pods-LinxoNUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinxoNUI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LinxoNUI/Pods-LinxoNUI.debug.xcconfig"; sourceTree = "<group>"; };
+		73401B6DCFFBDEA2EA66F954 /* Pods_LinxoNUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LinxoNUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		901878391F9E713D0062A0CE /* LinxoNUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LinxoNUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9018783C1F9E713D0062A0CE /* LinxoNUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinxoNUI.h; sourceTree = "<group>"; };
 		9018783D1F9E713D0062A0CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -21,17 +25,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FB256585E6FE994A397E3E1 /* Pods_LinxoNUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3298C32BFAE59BEAB12A9B33 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				674971801AC43D3E6A38A549 /* Pods-LinxoNUI.debug.xcconfig */,
+				2C41724778027DB8357FFB8C /* Pods-LinxoNUI.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		40D72B433A6E991DEF6B9E7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73401B6DCFFBDEA2EA66F954 /* Pods_LinxoNUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9018782F1F9E713D0062A0CE = {
 			isa = PBXGroup;
 			children = (
 				9018783B1F9E713D0062A0CE /* LinxoNUI */,
 				9018783A1F9E713D0062A0CE /* Products */,
+				3298C32BFAE59BEAB12A9B33 /* Pods */,
+				40D72B433A6E991DEF6B9E7F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,10 +94,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 901878411F9E713D0062A0CE /* Build configuration list for PBXNativeTarget "LinxoNUI" */;
 			buildPhases = (
+				01BEC70E80ED4117712C37CA /* [CP] Check Pods Manifest.lock */,
 				901878341F9E713D0062A0CE /* Sources */,
 				901878351F9E713D0062A0CE /* Frameworks */,
 				901878361F9E713D0062A0CE /* Headers */,
 				901878371F9E713D0062A0CE /* Resources */,
+				6C133AAB9923E3E676D42F1D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -95,6 +121,7 @@
 				TargetAttributes = {
 					901878381F9E713D0062A0CE = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -125,6 +152,42 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01BEC70E80ED4117712C37CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LinxoNUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C133AAB9923E3E676D42F1D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LinxoNUI/Pods-LinxoNUI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		901878341F9E713D0062A0CE /* Sources */ = {
@@ -186,7 +249,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -240,7 +303,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -252,7 +315,9 @@
 		};
 		901878421F9E713D0062A0CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 674971801AC43D3E6A38A549 /* Pods-LinxoNUI.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -266,6 +331,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.linxo.ios.LinxoNUI;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -273,7 +339,9 @@
 		};
 		901878431F9E713D0062A0CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C41724778027DB8357FFB8C /* Pods-LinxoNUI.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;

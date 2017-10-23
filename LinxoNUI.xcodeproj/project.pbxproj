@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7FB256585E6FE994A397E3E1 /* Pods_LinxoNUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73401B6DCFFBDEA2EA66F954 /* Pods_LinxoNUI.framework */; };
 		9018783E1F9E713D0062A0CE /* LinxoNUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 9018783C1F9E713D0062A0CE /* LinxoNUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		901878511F9E85350062A0CE /* LinxoNUIInit.m in Sources */ = {isa = PBXBuildFile; fileRef = 901878501F9E85350062A0CE /* LinxoNUIInit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +19,8 @@
 		901878391F9E713D0062A0CE /* LinxoNUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LinxoNUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9018783C1F9E713D0062A0CE /* LinxoNUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinxoNUI.h; sourceTree = "<group>"; };
 		9018783D1F9E713D0062A0CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9018784F1F9E85350062A0CE /* LinxoNUIInit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LinxoNUIInit.h; path = /Users/Morgan/Downloads/LinxoNUI/LinxoNUI/LinxoNUIInit.h; sourceTree = "<absolute>"; };
+		901878501F9E85350062A0CE /* LinxoNUIInit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = LinxoNUIInit.m; path = /Users/Morgan/Downloads/LinxoNUI/LinxoNUI/LinxoNUIInit.m; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +73,8 @@
 		9018783B1F9E713D0062A0CE /* LinxoNUI */ = {
 			isa = PBXGroup;
 			children = (
+				9018784F1F9E85350062A0CE /* LinxoNUIInit.h */,
+				901878501F9E85350062A0CE /* LinxoNUIInit.m */,
 				9018783C1F9E713D0062A0CE /* LinxoNUI.h */,
 				9018783D1F9E713D0062A0CE /* Info.plist */,
 			);
@@ -194,6 +199,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				901878511F9E85350062A0CE /* LinxoNUIInit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

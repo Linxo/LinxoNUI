@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -320,7 +320,7 @@
 		3E03A45FD2873671D162A6D3BF29BD08 /* NUIPWhiteSpaceRecogniser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIPWhiteSpaceRecogniser.m; path = "NUIParse/Tokenisation/Token Recognisers/NUIPWhiteSpaceRecogniser.m"; sourceTree = "<group>"; };
 		3E03BDA119ABFCED5B62E6C9BE2FAFD4 /* NUIPToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIPToken.m; path = "NUIParse/Tokenisation/Token Types/NUIPToken.m"; sourceTree = "<group>"; };
 		3E2220D8DAC84B752621148B9CA1478D /* NUISegmentedControlRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUISegmentedControlRenderer.m; path = NUI/Core/Renderers/NUISegmentedControlRenderer.m; sourceTree = "<group>"; };
-		44CCAB319AE9FACBC4F398AA1C625B8A /* NUIParse.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = NUIParse.modulemap; sourceTree = "<group>"; };
+		44CCAB319AE9FACBC4F398AA1C625B8A /* NUIParse.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = NUIParse.modulemap; sourceTree = "<group>"; };
 		47B4751A2ECFA9B48188DE9842BA73E5 /* NUIPJSONParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIPJSONParser.m; path = "NUIParse/Built In Parsers/NUIPJSONParser.m"; sourceTree = "<group>"; };
 		48EEEBBC769C48291A86F07C2FFAA986 /* UITextView+NUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+NUI.h"; path = "NUI/UI/UITextView+NUI.h"; sourceTree = "<group>"; };
 		498CF8AF018C663216BCB4C54BE9107E /* NUIPKeywordRecogniser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIPKeywordRecogniser.m; path = "NUIParse/Tokenisation/Token Recognisers/NUIPKeywordRecogniser.m"; sourceTree = "<group>"; };
@@ -328,9 +328,9 @@
 		4B3ED89D3E9528B6BE5DF4E103152717 /* NUIPRHSItemResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIPRHSItemResult.m; path = NUIParse/Grammar/NUIPRHSItemResult.m; sourceTree = "<group>"; };
 		4C9E08D8699A7DEE8CE25EDBA099F1AA /* NUITextFieldRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUITextFieldRenderer.m; path = NUI/Core/Renderers/NUITextFieldRenderer.m; sourceTree = "<group>"; };
 		4D89F22E1EC4AEDD114CDB61690257BD /* NUIUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIUtilities.h; path = NUI/Core/NUIUtilities.h; sourceTree = "<group>"; };
-		4DF565C088C220FF263893373EC9CC13 /* Pods_LinxoNUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LinxoNUI.framework; path = "Pods-LinxoNUI.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DF565C088C220FF263893373EC9CC13 /* Pods_LinxoNUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LinxoNUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		501F008DFED5A4E5C0544E1CA0D59183 /* NUIPIdentifierRecogniser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIPIdentifierRecogniser.m; path = "NUIParse/Tokenisation/Token Recognisers/NUIPIdentifierRecogniser.m"; sourceTree = "<group>"; };
-		52B521354194B87BA83976337A46EF38 /* Blue.NUI.nss */ = {isa = PBXFileReference; includeInIndex = 1; name = Blue.NUI.nss; path = NUI/Themes/Blue.NUI.nss; sourceTree = "<group>"; };
+		52B521354194B87BA83976337A46EF38 /* Blue.NUI.nss */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Blue.NUI.nss; path = NUI/Themes/Blue.NUI.nss; sourceTree = "<group>"; };
 		54FE408265938B4F2D6E49AB4FCB635C /* NUIPKeywordToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIPKeywordToken.h; path = "NUIParse/Tokenisation/Token Types/NUIPKeywordToken.h"; sourceTree = "<group>"; };
 		5579C4AA0CC35D09427FA2BF4ECA7FAB /* NUIPKeywordToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIPKeywordToken.m; path = "NUIParse/Tokenisation/Token Types/NUIPKeywordToken.m"; sourceTree = "<group>"; };
 		56E18A74AD125B55B4C8D3EB3BFDCFA5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -340,7 +340,7 @@
 		59395DAB328C4D4EA0FBCF040C645DF3 /* UIProgressView+NUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+NUI.h"; path = "NUI/UI/UIProgressView+NUI.h"; sourceTree = "<group>"; };
 		5A5F9059E8A244FD005F14165CF4732B /* NUIParse.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NUIParse.xcconfig; sourceTree = "<group>"; };
 		5B1DD4BA9D5FF2C466AD77EF8502F6F5 /* NUIPRecoveryAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIPRecoveryAction.m; path = "NUIParse/Parsers/Error Recovery/NUIPRecoveryAction.m"; sourceTree = "<group>"; };
-		5CA522571140C67EC29E01683E8CA451 /* Round.NUI.nss */ = {isa = PBXFileReference; includeInIndex = 1; name = Round.NUI.nss; path = NUI/Themes/Round.NUI.nss; sourceTree = "<group>"; };
+		5CA522571140C67EC29E01683E8CA451 /* Round.NUI.nss */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Round.NUI.nss; path = NUI/Themes/Round.NUI.nss; sourceTree = "<group>"; };
 		5CEC8D64DD04E950D89C521CE9EBA132 /* NUILabelRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUILabelRenderer.m; path = NUI/Core/Renderers/NUILabelRenderer.m; sourceTree = "<group>"; };
 		5EC517BEB01F296D760DE840D2262AEE /* NUIPShiftReduceParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIPShiftReduceParser.m; path = NUIParse/Parsers/NUIPShiftReduceParser.m; sourceTree = "<group>"; };
 		613AF55E7948CD920636ADC812471D8E /* NUIPWhiteSpaceToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIPWhiteSpaceToken.h; path = "NUIParse/Tokenisation/Token Types/NUIPWhiteSpaceToken.h"; sourceTree = "<group>"; };
@@ -352,13 +352,13 @@
 		661149C256A5D62B5A05A7DFF8D7B904 /* NUIProgressViewRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIProgressViewRenderer.h; path = NUI/Core/Renderers/NUIProgressViewRenderer.h; sourceTree = "<group>"; };
 		66E56BDD568D0FAC927AE7072AC4BB45 /* NUIPGrammar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIPGrammar.m; path = NUIParse/Grammar/NUIPGrammar.m; sourceTree = "<group>"; };
 		67AED1C7EFA7FBBE5950D317D5B20ADD /* UIView+NUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+NUI.h"; path = "NUI/UI/UIView+NUI.h"; sourceTree = "<group>"; };
-		68B401441D8585FF399F37A8C5930715 /* Route.NUI.nss */ = {isa = PBXFileReference; includeInIndex = 1; name = Route.NUI.nss; path = NUI/Themes/Route.NUI.nss; sourceTree = "<group>"; };
+		68B401441D8585FF399F37A8C5930715 /* Route.NUI.nss */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Route.NUI.nss; path = NUI/Themes/Route.NUI.nss; sourceTree = "<group>"; };
 		6A807A2572C4E324110FBFA7811FE64F /* NUIParse-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NUIParse-prefix.pch"; sourceTree = "<group>"; };
 		6B3A04715D4DFF9A7FF4839BE7502EEB /* NUIStyleParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIStyleParser.m; path = NUI/Core/NUIStyleParser.m; sourceTree = "<group>"; };
 		6B97969B10E104A57133220041721B9B /* NUINavigationBarRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUINavigationBarRenderer.m; path = NUI/Core/Renderers/NUINavigationBarRenderer.m; sourceTree = "<group>"; };
 		6FE11CA06D5B488AA8DD7DE9573149EF /* NUIPLALR1Parser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIPLALR1Parser.m; path = NUIParse/Parsers/NUIPShiftReduceParsers/NUIPLALR1Parser.m; sourceTree = "<group>"; };
 		7041B29A9A17C4DB46589166C7365AE9 /* NUIVariableToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIVariableToken.m; path = NUI/Core/Parser/NUIVariableToken.m; sourceTree = "<group>"; };
-		713C22F9CFB5732757F555442A297D2B /* NUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NUI.framework; path = NUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		713C22F9CFB5732757F555442A297D2B /* NUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7185375BCF2E10B8ED5D8210AA283EED /* UIView+NUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+NUI.m"; path = "NUI/UI/UIView+NUI.m"; sourceTree = "<group>"; };
 		73C406E968E90528A94035F09A2E1240 /* NSSet+NUIFunctional.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSSet+NUIFunctional.h"; path = "NUIParse/NSSet+NUIFunctional.h"; sourceTree = "<group>"; };
 		7489532FA4A5327BB344F559214310F4 /* NUIControlRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIControlRenderer.h; path = NUI/Core/Renderers/NUIControlRenderer.h; sourceTree = "<group>"; };
@@ -380,7 +380,7 @@
 		7E9E5EDF6DAC6A8B449A2F7D0B2005C3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		81F86761E4A3F9F6D5FD5E2D0CC622EA /* NUITokeniserDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUITokeniserDelegate.h; path = NUI/Core/Parser/NUITokeniserDelegate.h; sourceTree = "<group>"; };
 		83878205CC9EE5AE623E3629CF4F3EB3 /* NUIPNumberRecogniser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIPNumberRecogniser.m; path = "NUIParse/Tokenisation/Token Recognisers/NUIPNumberRecogniser.m"; sourceTree = "<group>"; };
-		83A6D26CC1F2E002CAD7F0762155760D /* Switchboard.NUI.nss */ = {isa = PBXFileReference; includeInIndex = 1; name = Switchboard.NUI.nss; path = NUI/Themes/Switchboard.NUI.nss; sourceTree = "<group>"; };
+		83A6D26CC1F2E002CAD7F0762155760D /* Switchboard.NUI.nss */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Switchboard.NUI.nss; path = NUI/Themes/Switchboard.NUI.nss; sourceTree = "<group>"; };
 		843663F4119354157C7B5D37597243ED /* NUISliderRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUISliderRenderer.h; path = NUI/Core/Renderers/NUISliderRenderer.h; sourceTree = "<group>"; };
 		860A5F09FCB1ACE6E3062B0F95E06378 /* NUIDefinition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIDefinition.m; path = NUI/Core/Parser/NUIDefinition.m; sourceTree = "<group>"; };
 		863F859FB6473BF427F7CD356B40024C /* UITableView+NUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+NUI.h"; path = "NUI/UI/UITableView+NUI.h"; sourceTree = "<group>"; };
@@ -392,20 +392,20 @@
 		8DE617458E5B689FD423617E04250705 /* NUIPQuotedToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIPQuotedToken.h; path = "NUIParse/Tokenisation/Token Types/NUIPQuotedToken.h"; sourceTree = "<group>"; };
 		8E00622D280CFA0C79E9689674A3DF03 /* NUIFileMonitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIFileMonitor.h; path = NUI/Core/NUIFileMonitor.h; sourceTree = "<group>"; };
 		8E317AA97931DE5FAFF3D9C25F954380 /* NUIPShiftReduceActionTable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIPShiftReduceActionTable.m; path = NUIParse/Parsers/NUIPShiftReduceParsers/NUIPShiftReduceActionTable.m; sourceTree = "<group>"; };
-		8E3322F47BD116B9DBCE34D25D132304 /* Pods-LinxoNUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LinxoNUI.modulemap"; sourceTree = "<group>"; };
+		8E3322F47BD116B9DBCE34D25D132304 /* Pods-LinxoNUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LinxoNUI.modulemap"; sourceTree = "<group>"; };
 		8EBDC3C4E4E04FF3E44F0B7CD6829BF5 /* NUIGraphics.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIGraphics.m; path = NUI/Core/NUIGraphics.m; sourceTree = "<group>"; };
-		92447745E2FC4B3295CB312271547986 /* SkyBlue.NUI.nss */ = {isa = PBXFileReference; includeInIndex = 1; name = SkyBlue.NUI.nss; path = NUI/Themes/SkyBlue.NUI.nss; sourceTree = "<group>"; };
+		92447745E2FC4B3295CB312271547986 /* SkyBlue.NUI.nss */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SkyBlue.NUI.nss; path = NUI/Themes/SkyBlue.NUI.nss; sourceTree = "<group>"; };
 		92A1382175EC126046B34CEB00118502 /* NUIPShiftReduceGotoTable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIPShiftReduceGotoTable.h; path = NUIParse/Parsers/NUIPShiftReduceParsers/NUIPShiftReduceGotoTable.h; sourceTree = "<group>"; };
 		933490DB9E9D343E14B89067714EEDD1 /* NUIPGrammarSymbol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIPGrammarSymbol.h; path = NUIParse/Grammar/NUIPGrammarSymbol.h; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		963528047F65978C40F0430EA32D4A86 /* UISlider+NUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UISlider+NUI.m"; path = "NUI/UI/UISlider+NUI.m"; sourceTree = "<group>"; };
 		968F19196514AF56051A7B24C5678E1B /* NUITabBarRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUITabBarRenderer.h; path = NUI/Core/Renderers/NUITabBarRenderer.h; sourceTree = "<group>"; };
 		9777768458C008248C3984C5D0BAE7EF /* NUIRuleSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIRuleSet.h; path = NUI/Core/Parser/NUIRuleSet.h; sourceTree = "<group>"; };
-		99AA7285BC84ED6D8B2180C10EFB9012 /* Googolplex.NUI.nss */ = {isa = PBXFileReference; includeInIndex = 1; name = Googolplex.NUI.nss; path = NUI/Themes/Googolplex.NUI.nss; sourceTree = "<group>"; };
+		99AA7285BC84ED6D8B2180C10EFB9012 /* Googolplex.NUI.nss */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Googolplex.NUI.nss; path = NUI/Themes/Googolplex.NUI.nss; sourceTree = "<group>"; };
 		9AEB4211947FAAC71564B5F332285238 /* NUISearchBarRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUISearchBarRenderer.h; path = NUI/Core/Renderers/NUISearchBarRenderer.h; sourceTree = "<group>"; };
 		9B3593F12C0A47AB5BD14FBCBDDD8CCB /* UINavigationItem+NUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationItem+NUI.m"; path = "NUI/UI/UINavigationItem+NUI.m"; sourceTree = "<group>"; };
 		9B54D2A8C127A8257A4CE5EEAA8D8687 /* NUIPTokenRecogniser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIPTokenRecogniser.h; path = "NUIParse/Tokenisation/Token Recognisers/NUIPTokenRecogniser.h"; sourceTree = "<group>"; };
-		9BA7ACFE97649ECEA6499B64E9BCF683 /* Default.NUI.nss */ = {isa = PBXFileReference; includeInIndex = 1; name = Default.NUI.nss; path = NUI/Themes/Default.NUI.nss; sourceTree = "<group>"; };
+		9BA7ACFE97649ECEA6499B64E9BCF683 /* Default.NUI.nss */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Default.NUI.nss; path = NUI/Themes/Default.NUI.nss; sourceTree = "<group>"; };
 		9FC642464881353F0BA28034D0A33DAA /* NUIPRegexpRecogniser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIPRegexpRecogniser.h; path = "NUIParse/Tokenisation/Token Recognisers/NUIPRegexpRecogniser.h"; sourceTree = "<group>"; };
 		A0A8EDF9FB07935265130001E5AF0560 /* NUIPKeywordRecogniser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIPKeywordRecogniser.h; path = "NUIParse/Tokenisation/Token Recognisers/NUIPKeywordRecogniser.h"; sourceTree = "<group>"; };
 		A0E86F81387F378BAB8A23EB1CB45559 /* UILabel+NUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+NUI.h"; path = "NUI/UI/UILabel+NUI.h"; sourceTree = "<group>"; };
@@ -422,11 +422,11 @@
 		B984FC1BD39D56EFDF28BC78BBB47325 /* NUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NUI-dummy.m"; sourceTree = "<group>"; };
 		BC47E90DCC5BBA3F1940BED840490104 /* NUISliderRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUISliderRenderer.m; path = NUI/Core/Renderers/NUISliderRenderer.m; sourceTree = "<group>"; };
 		BC6931AED200183FED523B11DFF8A14A /* NUIPTokeniser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIPTokeniser.h; path = NUIParse/Tokenisation/NUIPTokeniser.h; sourceTree = "<group>"; };
-		BCD5E488EA29AE4474B8FF4A37523CA2 /* NUIParse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NUIParse.framework; path = NUIParse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD5E488EA29AE4474B8FF4A37523CA2 /* NUIParse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NUIParse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD4238043555579F9185135233486C52 /* NUIAppearance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIAppearance.m; path = NUI/Core/NUIAppearance.m; sourceTree = "<group>"; };
 		BF191EFDFDDC35C464239CD300619ABE /* NUIPRegexpRecogniser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIPRegexpRecogniser.m; path = "NUIParse/Tokenisation/Token Recognisers/NUIPRegexpRecogniser.m"; sourceTree = "<group>"; };
 		BF3DEB0AF7F784C7F9AC913FB3477BAF /* UISegmentedControl+NUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UISegmentedControl+NUI.m"; path = "NUI/UI/UISegmentedControl+NUI.m"; sourceTree = "<group>"; };
-		C10149F2A692DEAD491ACA73D6407A50 /* NUIStyle.nss */ = {isa = PBXFileReference; includeInIndex = 1; name = NUIStyle.nss; path = NUI/NUIStyle.nss; sourceTree = "<group>"; };
+		C10149F2A692DEAD491ACA73D6407A50 /* NUIStyle.nss */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NUIStyle.nss; path = NUI/NUIStyle.nss; sourceTree = "<group>"; };
 		C18C302C97134DE3D6B57F17D787D061 /* NUISearchBarRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUISearchBarRenderer.m; path = NUI/Core/Renderers/NUISearchBarRenderer.m; sourceTree = "<group>"; };
 		C195C5240CCB78EBB42269EA2A2A7202 /* NUIStyleSheet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIStyleSheet.h; path = NUI/Core/Parser/NUIStyleSheet.h; sourceTree = "<group>"; };
 		C29BB4603443D1BAF8E30F089D91AEAF /* NUIPRHSItemResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIPRHSItemResult.h; path = NUIParse/Grammar/NUIPRHSItemResult.h; sourceTree = "<group>"; };
@@ -462,7 +462,7 @@
 		DB20798AD7F318E9B0ADA802764D1DF9 /* UINavigationBar+NUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationBar+NUI.m"; path = "NUI/UI/UINavigationBar+NUI.m"; sourceTree = "<group>"; };
 		DC0FD9BF1D096E507502F873D24E4F46 /* NUIPSyntaxTree.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIPSyntaxTree.m; path = "NUIParse/Syntax Tree/NUIPSyntaxTree.m"; sourceTree = "<group>"; };
 		DDB58544AB6F77DE13558F4C9CE9FCF1 /* NUISegmentedControlRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUISegmentedControlRenderer.h; path = NUI/Core/Renderers/NUISegmentedControlRenderer.h; sourceTree = "<group>"; };
-		DE04032B88C7EDCF0152B07F15684002 /* NUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = NUI.modulemap; sourceTree = "<group>"; };
+		DE04032B88C7EDCF0152B07F15684002 /* NUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = NUI.modulemap; sourceTree = "<group>"; };
 		DE8EA48B97F9EE33FC5DB14FEAF7E953 /* NUIPNumberToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIPNumberToken.h; path = "NUIParse/Tokenisation/Token Types/NUIPNumberToken.h"; sourceTree = "<group>"; };
 		DEE0A6F22250BD5EB9DC974429959DDA /* Pods-LinxoNUI-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LinxoNUI-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E0422CD88D4F216F0088DA0CB1A1D620 /* NUIPSyntaxTree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIPSyntaxTree.h; path = "NUIParse/Syntax Tree/NUIPSyntaxTree.h"; sourceTree = "<group>"; };
@@ -775,7 +775,6 @@
 				F764C288F547E2D8853878796D613D0A /* Resources */,
 				41C560B636360FCF369436D101EBB0B1 /* Support Files */,
 			);
-			name = NUI;
 			path = NUI;
 			sourceTree = "<group>";
 		};
@@ -869,7 +868,6 @@
 				D7C3F7A49874D41E1C5967030BB5239B /* NUIPWhiteSpaceToken.m */,
 				952CC48A7B8810D43B5302BB8695991B /* Support Files */,
 			);
-			name = NUIParse;
 			path = NUIParse;
 			sourceTree = "<group>";
 		};
@@ -1322,7 +1320,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
@@ -1380,7 +1378,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1437,7 +1435,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-LinxoNUI/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-LinxoNUI/Pods-LinxoNUI.modulemap";
@@ -1530,7 +1528,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-LinxoNUI/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-LinxoNUI/Pods-LinxoNUI.modulemap";

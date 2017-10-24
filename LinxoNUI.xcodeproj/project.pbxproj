@@ -10,6 +10,7 @@
 		7FB256585E6FE994A397E3E1 /* Pods_LinxoNUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73401B6DCFFBDEA2EA66F954 /* Pods_LinxoNUI.framework */; };
 		9018783E1F9E713D0062A0CE /* LinxoNUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 9018783C1F9E713D0062A0CE /* LinxoNUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		901878511F9E85350062A0CE /* LinxoNUIInit.m in Sources */ = {isa = PBXBuildFile; fileRef = 901878501F9E85350062A0CE /* LinxoNUIInit.m */; };
+		90ED0D121F9F20AD000F8548 /* LinxoNUIInit.h in Headers */ = {isa = PBXBuildFile; fileRef = 9018784F1F9E85350062A0CE /* LinxoNUIInit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -89,6 +90,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9018783E1F9E713D0062A0CE /* LinxoNUI.h in Headers */,
+				90ED0D121F9F20AD000F8548 /* LinxoNUIInit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

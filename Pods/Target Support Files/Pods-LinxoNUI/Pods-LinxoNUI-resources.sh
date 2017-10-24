@@ -83,6 +83,28 @@ EOM
       ;;
   esac
 }
+if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_resource "${PODS_ROOT}/NUI/NUI/Resources/NUIViewBackground.png"
+  install_resource "${PODS_ROOT}/NUI/NUI/NUIStyle.nss"
+  install_resource "${PODS_ROOT}/NUI/NUI/Themes/Blue.NUI.nss"
+  install_resource "${PODS_ROOT}/NUI/NUI/Themes/Default.NUI.nss"
+  install_resource "${PODS_ROOT}/NUI/NUI/Themes/Googolplex.NUI.nss"
+  install_resource "${PODS_ROOT}/NUI/NUI/Themes/Round.NUI.nss"
+  install_resource "${PODS_ROOT}/NUI/NUI/Themes/Route.NUI.nss"
+  install_resource "${PODS_ROOT}/NUI/NUI/Themes/SkyBlue.NUI.nss"
+  install_resource "${PODS_ROOT}/NUI/NUI/Themes/Switchboard.NUI.nss"
+fi
+if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_resource "${PODS_ROOT}/NUI/NUI/Resources/NUIViewBackground.png"
+  install_resource "${PODS_ROOT}/NUI/NUI/NUIStyle.nss"
+  install_resource "${PODS_ROOT}/NUI/NUI/Themes/Blue.NUI.nss"
+  install_resource "${PODS_ROOT}/NUI/NUI/Themes/Default.NUI.nss"
+  install_resource "${PODS_ROOT}/NUI/NUI/Themes/Googolplex.NUI.nss"
+  install_resource "${PODS_ROOT}/NUI/NUI/Themes/Round.NUI.nss"
+  install_resource "${PODS_ROOT}/NUI/NUI/Themes/Route.NUI.nss"
+  install_resource "${PODS_ROOT}/NUI/NUI/Themes/SkyBlue.NUI.nss"
+  install_resource "${PODS_ROOT}/NUI/NUI/Themes/Switchboard.NUI.nss"
+fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
 rsync -avr --copy-links --no-relative --exclude '*/.svn/*' --files-from="$RESOURCES_TO_COPY" / "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
